@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <!-- Paleta do protótipo MYND (Figma) -->
+    <color name="sage_50">#EDF1EB</color>
+    <color name="sage_100">#DCE5DA</color>
+    <color name="sage_300">#AABDA6</color>
+    <color name="sage_500">#718B72</color>
+    <color name="sage_700">#49644F</color>
+
+    <color name="terracotta">#D97D63</color>
+    <color name="terracotta_dark">#C66E56</color>
+    <color name="blush">#F4DFD7</color>
+    <color name="cream">#F1E7D3</color>
+
+    <color name="canvas">#F5F4EF</color>
+    <color name="surface">#FFFEFA</color>
+    <color name="ink">#26342F</color>
+    <color name="muted">#748079</color>
+    <color name="line">#E2E5DD</color>
+
     <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
 </resources>

@@ -1,9 +1,43 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Mynd" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Base.Theme.Mynd" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Cor principal: verde-sálvia -->
+        <item name="colorPrimary">@color/sage_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/sage_100</item>
+        <item name="colorOnPrimaryContainer">@color/sage_700</item>
+
+        <!-- Cor de destaque: terracota (botões de ação) -->
+        <item name="colorSecondary">@color/terracotta</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/blush</item>
+        <item name="colorOnSecondaryContainer">@color/terracotta_dark</item>
+
+        <!-- Fundos e textos -->
+        <item name="android:colorBackground">@color/canvas</item>
+        <item name="colorOnBackground">@color/ink</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceContainer">@color/surface</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="colorOnSurfaceVariant">@color/muted</item>
+        <item name="colorOutline">@color/sage_300</item>
+        <item name="colorOutlineVariant">@color/line</item>
+
+        <!-- Menu inferior -->
+        <item name="bottomNavigationStyle">@style/Widget.Mynd.BottomNavigation</item>
     </style>
 
     <style name="Theme.Mynd" parent="Base.Theme.Mynd" />
+
+    <style name="Widget.Mynd.BottomNavigation" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/surface</item>
+        <item name="itemIconTint">@color/selector_bottom_nav</item>
+        <item name="itemTextColor">@color/selector_bottom_nav</item>
+        <item name="itemActiveIndicatorStyle">@style/Widget.Mynd.BottomNavigation.Indicador</item>
+    </style>
+
+    <style name="Widget.Mynd.BottomNavigation.Indicador" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/sage_100</item>
+    </style>
+
 </resources>
