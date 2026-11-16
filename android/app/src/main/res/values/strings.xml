@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Mynd</string>
+    <string name="app_name">MYND</string>
+
+    <!-- Menu inferior (paciente) -->
+    <string name="menu_inicio">Início</string>
+    <string name="menu_agenda">Agenda</string>
+    <string name="menu_sessoes">Sessões</string>
+    <string name="menu_jornada">Jornada</string>
+
+    <!-- Títulos provisórios das telas -->
+    <string name="titulo_inicio">Visão geral</string>
+    <string name="titulo_agenda">Minha agenda</string>
+    <string name="titulo_sessoes">Minhas sessões</string>
+    <string name="titulo_jornada">Minha jornada</string>
 </resources>

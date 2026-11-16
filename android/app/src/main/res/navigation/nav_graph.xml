@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="br.edu.pucgoias.mynd.ui.home.HomeFragment"
+        android:label="@string/menu_inicio" />
+
+    <fragment
+        android:id="@+id/agendaFragment"
+        android:name="br.edu.pucgoias.mynd.ui.agenda.AgendaFragment"
+        android:label="@string/menu_agenda" />
+
+    <fragment
+        android:id="@+id/sessoesFragment"
+        android:name="br.edu.pucgoias.mynd.ui.sessoes.SessoesFragment"
+        android:label="@string/menu_sessoes" />
+
+    <fragment
+        android:id="@+id/jornadaFragment"
+        android:name="br.edu.pucgoias.mynd.ui.jornada.JornadaFragment"
+        android:label="@string/menu_jornada" />
+
+</navigation>
